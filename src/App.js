@@ -1,14 +1,19 @@
 import React from "react";
-import Navbar from "./components/Navbar"; // Zmiana na import domyślny
-import O1 from "./components/O1"; // Zmiana na import domyślny
+import Navbar from "./components/Navbar";
+import O1 from "./components/O1"; 
+import O2 from "./components/O2"; 
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <>
+    
+    <body>
+    <Navbar/>
       <O1 />
-    </div>
+      <O2 />
+      </body>
+      </>
   );
 }
 
