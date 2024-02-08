@@ -7,7 +7,7 @@ function O3() {
 
 
 
-      <div className='w-full h-[75%]  flex justify-center md:pl-20 md:pr-20 sm:bg-pink-400 md:bg-transparent sm:pl-10 sm:pr-10 exsm:pl-5 exsm:pr-5 lg:h-[60dvh] xl:bg-green-600 exsm:w-[100%] '>
+      <div className='w-full h-[310px]  flex justify-center md:pl-20 md:pr-20 sm:bg-pink-400 md:bg-transparent sm:pl-10 sm:pr-10 exsm:pl-5 exsm:pr-5 lg:h-[60dvh] xl:bg-green-600 exsm:w-[100%] '>
         <img className='max-w-full h-auto sm:h-[100%]  ' src={sand} alt="Piasek"></img>
       </div>
 
