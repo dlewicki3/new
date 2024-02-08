@@ -19,6 +19,8 @@ module.exports = {
         'custom': '15px', // Dodaj niestandardowy rozmiar czcionki
       },
       screens: {
+        
+         'fck':'200px',
 
         'exsm': '300px',
 
