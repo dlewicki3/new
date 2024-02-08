@@ -19,7 +19,7 @@ function O2() {
     transition={{ duration: 0.3, delay:0.11 }}
     className='h-[12dvh] w-full mx-auto max-w-[1100px] pl-32 pr-32 flex justify-center exsm:pl-10 exsm:pr-10'>
       <div className='w-[100%] h-[12dvh] flex justify-between items-center max-w-[1100px] exsm:flex-col md:flex-row exsm:w-[100%]'>
-        <div className='flex w-1/2 exsm:w-full exsm:h-1/2 sm:bg-transparent'>
+        <div className='flex w-1/2 exsm:w-full exsm:h-[90px]sm:bg-transparent'>
           <div className='w-[33%] h-full flex items-center justify-center '>
             <img className='w-3/4 h-[30px]' src={Icon1} loading='lazy' alt='Icon 1' />
           </div>
@@ -30,7 +30,7 @@ function O2() {
             <img className='w-3/4 h-[30px]' src={Icon3} loading='lazy' alt='Icon 3' />
           </div>
         </div>
-        <div className='flex h-20 w-1/2 exsm:w-full exsm:h-1/2'>
+        <div className='flex h-20 w-1/2 exsm:w-full exsm:h-[90px]'>
           <div className='w-[33%] h-full flex items-center justify-center '>
             <img className='w-3/4 h-[30px]' src={Icon4} loading='lazy' alt='Icon 4' />
           </div>
