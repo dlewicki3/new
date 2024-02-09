@@ -30,8 +30,7 @@ function O1() {
        animate={{ opacity: 1, y: 0 }}
        transition={{ duration: 0.3, delay:0.05 }}
           className='text-xl text-[#687076] font-medium text-center mt-10 sm:text-[18px] exsm:text-[15px]'>
-          High-end Webflow development for design-driven companies
-          <br /> where attention to detail and passionate dedication matter.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium necessitatibus dolorem doloribus <br/>consectetur expedita.
         </motion.p>
 
       </div>

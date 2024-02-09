@@ -9,7 +9,7 @@ function Navbar() {
 
   <div className='exsm:text-base font-[500] tracking-[-1.6px] sm:text-xl text-[#11181c]'>Dominik Lewicki</div>
 
-  <ul className="hidden  md:flex bg-transparent lg:bg-transparent h-10 items-center  md:bg-red-700 text-[#687076]" >
+  <ul className="hidden  md:flex bg-transparent lg:bg-transparent h-10 items-center   text-[#687076]" >
 
   <li className='p-3'>Home</li>
   <li className='p-3'>About</li>
