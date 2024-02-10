@@ -17,24 +17,23 @@ function O5() {
         ref.current,
         { y: yOffset },
         {
-          y: -800, // Move 800px up
+          y: -400, // zmniejszam odległość przesunięcia
           pin: true,
           scrollTrigger: {
             trigger: ref.current,
             toggleActions: 'restart none none reverse',
             scrub: true,
-            start: '50% center', // Start the animation when the center of the div is in the middle of the viewport
-            end: '+=2000px',
-  
+            start: '50% center',
+            end: '+=1000px', // zmniejszam odległość przesunięcia
           },
         }
       );
     };
 
-    animateOnScroll(chujRef, 0); // Move 200px up
-    animateOnScroll(chuj2Ref, 0); // Move 400px up
-    animateOnScroll(chuj3Ref, 0); // Move 100px up
-    animateOnScroll(chuj4Ref, 0); // No change in initial offset
+    animateOnScroll(chujRef, 0);
+    animateOnScroll(chuj2Ref, 0);
+    animateOnScroll(chuj3Ref, 0);
+    animateOnScroll(chuj4Ref, 0);
 
   }, [chujRef, chuj2Ref, chuj3Ref, chuj4Ref]);
 
