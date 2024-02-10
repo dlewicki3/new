@@ -14,14 +14,14 @@ function O1() {
   }, [controls1, controls2, controls3]);
 
   return (
-    <div className='w-full h-[85vh] flex justify-center items-center flex-col mx-auto max-w-[1100px] pl-10 pr-10'>
+    <div className='w-full h-[90vh] flex justify-center items-center flex-col mx-auto max-w-[1100px] pl-5 pr-5'>
       <div className='flex flex-col justify-center items-center w-3/4 md:pl-20 md:pr-20 sm:'>
 
         <motion.p
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3 }}
-          className='h-auto text-blue-900 font-normal leading-[0.9] tracking-[-12px] text-center sm:text-[100px] md:text-[120px] exsm:text-[80px] exsm:text-[70px] exsm:tracking-[-6px] mt-[50px]'>
+          className='h-auto text-blue-900 font-normal leading-[0.9] tracking-[-12px] text-center sm:text-[100px] md:text-[120px]  exsm:text-[70px] exsm:tracking-[-6px] mt-[50px]'>
           Exceptional <br /> Webflow sites.
         </motion.p>
 
