@@ -3,7 +3,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 function Navbar() {
   return (
-<div className=' sm:text-base w-full h-12 mx-auto z-100 flex justify-between items-center fixed left-1/2 transform -translate-x-1/2 backdrop-filter backdrop-blur-15 lg:p-0 md:pl-5 sm:pl-5 sm:pr-5 exsm:pl-5 exsm:pr-5 exsm:text-sm      backdrop-blur-lg      ' >
+<div className=' sm:text-base w-full h-12 mx-auto z-50 flex justify-between items-center fixed left-1/2 transform -translate-x-1/2 backdrop-filter backdrop-blur-15 lg:p-0 md:pl-5 sm:pl-5 sm:pr-5 exsm:pl-5 exsm:pr-5 exsm:text-sm      backdrop-blur-lg      ' >
 
 <div class="w-full max-w-[1100px]  flex justify-between items-center mx-auto h-full border-b border-solid border-borderColor ">
 

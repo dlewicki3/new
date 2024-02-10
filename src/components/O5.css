@@ -1,0 +1,76 @@
+.o5
+{
+    width: 100%;
+    height: 250dvh;
+    background-color: #fbfcfd; 
+
+    overflow-y: hidden;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+
+}
+  .pin
+  {
+    width: 60%;
+    height: 450px;
+  background-color:#e7e5e5;
+    max-width: 1100px;
+    border-radius: 20px;
+
+  }
+  .pin2
+  {
+    width: 55%;
+    height: 400px;
+    background-color:red;
+    max-width: 1100px;
+    border-radius: 16px;
+
+  }
+  .pin3
+  {
+    width: 55%;
+    height: 400px;
+    background-color:green;
+    max-width: 1100px;
+    border-radius: 16px;
+  
+  }
+  .pin4
+  {
+    width: 55%;
+    height: 400px;
+    background-color:yellowgreen;
+    max-width: 1100px;
+    border-radius: 16px;
+
+  }
+.over-k5
+
+{
+height: 40vh;
+width: 100%;
+letter-spacing: -5px;
+color: #1e3a8a;
+max-width: 1080px;
+font-size: 90px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+line-height: 1;
+}
+  .k5
+  {
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+ border:1px solid grey;
+    flex-direction: column;
+    overflow: hidden;
+   
+  }
