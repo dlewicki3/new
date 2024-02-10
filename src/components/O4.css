@@ -27,14 +27,7 @@ padding-top: 70px;
     flex-direction: column;
 
 }
-.top
-{
-width: 98%;
-height: 49%;
 
-display:flex ;
-justify-content: space-between;
-}
 .left
 {
     width: 49.5%;
@@ -94,10 +87,18 @@ align-items: center;
 height: 49.5%;
 
 border-radius: 12px;
-background-color: #151718;
+ background-color: #151718; 
 display: flex;
 justify-content: space-between;
 align-items: center;
+}
+.top
+{
+width: 98%;
+height: 49.5%;
+display:flex ;
+justify-content: space-between;
+
 }
 .left2
 {
@@ -130,13 +131,15 @@ align-items: center;
     overflow: hidden;
     border:1px solid grey;
     border-radius: 12px;
+ 
 
 }
 @media only screen and (max-width: 1024px)
 {
 .o4{
     
-    height: 140dvh;
+    height: 160dvh;
+   
   
 }
 .k4
@@ -152,7 +155,7 @@ height: 145dvh;
 }
 .gora-dol
 {
-height: 120dvh;
+height: 100%;
 }
 .top
 {
@@ -201,23 +204,26 @@ width: 100%;
 @media only screen and (max-width: 600px)
 {
 .o4{
-height: 180dvh;
-padding-top: 40px;
+height: 187dvh;
+padding-top: 20px;
 }
 .k4
 {
 
-    height: 165dvh;
+    height: 180dvh;
     padding-left: 20px;
 padding-right: 20px;
 }
 .gora-dol
 {
-    height: 145dvh;
+    height: 100%;
+ 
+    justify-content: space-between;
+    display: flex;
 }
 .right
 {
-    padding-top:80px;
+    padding-top:0px;
 }
 .kwa
 {
@@ -226,6 +232,9 @@ padding-right: 20px;
 .bottom
 {
     flex-direction: column;
+    height: 49.5%;
+
+    
 }
 .left2{
 
@@ -241,13 +250,6 @@ height: 49%;
 
 
     
-}
-.foto{
-    margin: 0;
-
-
-
-
 }
 
 
