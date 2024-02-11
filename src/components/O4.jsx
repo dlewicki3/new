@@ -29,7 +29,7 @@ function O4() {
     </div>
     <div className="right">
             <p className=' font-[500] text-white text-left leading-[35px] lg:text-[32px] md:text-[30px] sm:text-[25px] exsm:text-[20px] '>Working at the intersection of design and code.</p>
-            <p className='font-[500] text-[#9ba1a6] text-left mt-5 leading-[23px] lg:text-[18px] md:text-[16px]md:mt-1  sm:text-[14px] sm:mt-1 exsm:text-[12px]' >With years of experience in web design, I live and breathe good design and value the details that matter. Say goodbye to the stressful back and forth with developers who don’t have an eye for design and rely on someone who has the skills, experience, and enthusiasm to bring your visions to life the way they were intended.</p>
+            <p className='font-[500] text-[#9ba1a6] text-left mt-5 leading-[23px] lg:text-[18px] md:text-[16px]md:mt-0  sm:text-[14px] sm:mt-0  exsm:mt-[-5px] 0 exsm:text-[12px]' >With years of experience in web design, I live and breathe good design and value the details that matter. Say goodbye to the stressful back and forth with developers who don’t have an eye for design and rely on someone who has the skills, experience, and enthusiasm to bring your visions to life the way they were intended.</p>
     </div>
 </div>
 <div className="bottom">
