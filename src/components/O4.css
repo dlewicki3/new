@@ -9,39 +9,45 @@
   }
   
   .k4 {
-    height: 80vh;
+    height: 55vh;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 background-color: orangered;
     max-width: 1100px;
+    flex-direction: column;
+    
   }
   
-.square2
+.square1
 {
-  width: 500px;
-  height: 500px;
+  width:49%;
+  height: 100%;
   background-color: red;
-  
-  
+  border-radius: 10px;
+  cursor: pointer;
 }
+
 .big-square
 {
- background-color: white;
-  width: 300px;
-  height: 300px;
-opacity: 1;
-width: 100%;
-max-width: 260px;
-border-radius: 12px;
-z-index: 100;
+  background-color: white;
+  width: 100%;
+    height: 60%;
+  opacity: 1;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  z-index: 100;
+  padding-top: 100px;
+  
+  position: absolute;
 }
 .modal-bg
 {
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(0,0,0,.1);
   position: absolute;
   backdrop-filter: blur(24px);
   opacity: 1;
@@ -49,4 +55,163 @@ z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.start-btn
+{
+  background-color: pink;
+}
+.end-btn
+{
+  background-color: blueviolet;
+}
+.gora44
+{
+  width: 100%;
+  background-color: yellowgreen;
+  height: 49%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.dol44
+{
+  height: 49%;
+  width: 100%;
+  background-color: yellow;
+  justify-content: space-between;
+  display: flex;
+
+}
+.kwa44
+{
+  width: 49%;
+  background-color: blue;
+  height: 100%;
+  border-radius: 10px;
+}
+.kwa44-dol
+{
+  width: 49%;
+height: 100%;
+background-color: pink;
+border-radius: 10px;
+}
+.chuj2
+{
+  background-color: rgb(114, 66, 66);
+  width: 100%;
+    height: 60%;
+  opacity: 1;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  z-index: 100;
+  padding-top: 100px;
+  
+  position: absolute;
+}
+.chuj3
+{
+  background-color: red;
+  width: 100%;
+    height: 60%;
+  opacity: 1;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  z-index: 100;
+  padding-top: 100px;
+  
+  position: absolute;
+}
+.chuj4
+{
+  background-color: pink;
+  width: 100%;
+    height: 60%;
+  opacity: 1;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  z-index: 100;
+  padding-top: 100px;
+  
+  position: absolute;
+}
+@media only screen and (max-width: 1100px) {
+.o4{
+  background-color: green;
+  height: 150dvh;
+
+}
+.k4
+{
+height: 140dvh;
+}
+.gora44
+{
+  height: 50%;
+  flex-direction: column;
+  align-items: center;
+}
+.square1
+{
+  height: 49%;
+
+}
+.kwa44
+{
+  height: 49%;
+}
+.dol44
+{
+  height: 49%;
+  flex-direction: column;
+  align-items: center;
+  background-color: red;
+
+}
+.kwa44-dol
+{
+  height: 49%;
+}
+.modal-bg
+{
+  height: 150dvh;
+}
+.big-square,
+.chuj2,
+.chuj3,
+.chuj4
+{
+  width: 100%;
+  max-width: 1000px;
+  height: 80%;
+}
+
+
+
+
+
+}
+@media only screen and (max-width: 850px) {
+.o4{
+  background-color: gold;
+}
+.square1
+{
+ width: 90%;
+
+}
+.kwa44
+{
+  width: 90%;
+}
+.kwa44-dol
+{
+  width: 90%;
+}
+
+
+
 }
