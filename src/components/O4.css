@@ -1,276 +1,52 @@
-.o4
-{
-    height: 110dvh;
+.o4 {
+    height: 100vh;
     width: 100%;
-    margin: auto;
-    background-color: #151718;
-    display: flex;
-    justify-content:center;
-padding-top: 70px;
-}
-.k4
-{
-    width: 100%;
-    height: 100dvh;
-
-    max-width: 1100px;
-    text-align: center;
-}
-.gora-dol
-{
-    width: 100%;
-    height: 80vh;
-  
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-.left
-{
-    width: 49.5%;
-    height: 100%;
- 
-    border-radius: 10px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-}
-.right
-{
-    width: 49%;
-    height: 100%;
-    background-color: #151718;
-    border-radius: 10px;
-  padding-left: 58px;
-  padding-right: 58px;
-padding-top: 35px;
-border: 1px solid grey;
-}
-.top2
-{
-    width: 100%;
-    height: 49%;
-    
-    display: flex;
-    justify-content: space-between;
- 
-}
-.bottom2
-{
-height: 49%;
-width: 100%;
-
-display: flex;
-justify-content: space-between;
-
-}
-.kwa
-{
-    width: 49%;
-    height: 100%;
-    background-color: #151718;
-display: flex;
-justify-content: center;
-align-items: center;
-    border-radius: 12px;
-    color: #9ba1a6;
-    font-size: 48px;
-    flex-direction: column;
-    border: 1px solid grey;
-}
-.bottom
-{
-    width: 98%;
-height: 49.5%;
-
-border-radius: 12px;
- background-color: #151718; 
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-.top
-{
-width: 98%;
-height: 49.5%;
-display:flex ;
-justify-content: space-between;
-
-}
-.left2
-{
-    width: 49%;
-    height: 100%;
-    padding-left: 58px;
-    padding-right: 58px;
-  padding-top: 35px;
-  display: flex;
-  justify-content: center;
-  border: 1px solid grey;
-  flex-direction: column;
-  border-radius: 12px
-
-}
-.foto
-{
-  
-    width: 100%;
-    border-radius: 12px;
-    margin-top: 90px;
-}
-.right2
-{
-    width: 49%;
- display: flex;
- align-items: center;
- justify-content: center;
-    height: 100%;
-    overflow: hidden;
-    border:1px solid grey;
-    border-radius: 12px;
- 
-
-}
-@media only screen and (max-width: 1024px)
-{
-.o4{
-    
-    height: 160dvh;
-   
-  
-}
-.k4
-{
-display: flex;
-justify-content: center;
-flex-direction:column ;
-justify-content: space-between;
-padding-left: 50px;
-padding-right: 50px;
-height: 145dvh;
-
-}
-.gora-dol
-{
-height: 100%;
-}
-.top
-{
-    height: 62%;
-
-    flex-direction: column;
-}
-.kwa{
-    width: 49.5%;
-}
-.left {
-width: 100%;
-
-}
-.right
-{
-    width: 100%;
-    height: 49.5%;
-  
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-    
-}
-.left{
- height: 49.5%;
-}
-.bottom{
-    height: 37%;
-}
-.foto
-{
-    width: 100%;
-    border-radius: 12px;
-
-}
-.right2
-{
     display: flex;
     justify-content: center;
-    align-items:center ;
-    border-radius: 12px;
-}
-}
-@media only screen and (max-width: 600px)
-{
-.o4{
-height: 187dvh;
-padding-top: 20px;
-}
-.k4
-{
+    align-items: center;
 
-    height: 180dvh;
-    padding-left: 20px;
-padding-right: 20px;
-}
-.gora-dol
-{
-    height: 100%;
- 
-    justify-content: space-between;
+
+  }
+  
+  .k4 {
+    height: 80vh;
+    width: 100%;
     display: flex;
-}
-.right
+    justify-content: center;
+    align-items: center;
+background-color: orangered;
+    max-width: 1100px;
+  }
+  
+.square2
 {
-    padding-top:0px;
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  
+  
 }
-.kwa
+.big-square
 {
-    font-size: 40px
+ background-color: white;
+  width: 300px;
+  height: 300px;
+opacity: 1;
+width: 100%;
+max-width: 260px;
+border-radius: 12px;
+z-index: 100;
 }
-.bottom
+.modal-bg
 {
-    flex-direction: column;
-    height: 49.5%;
-
-    
-}
-.left2{
-
-    width: 100%;
-height: 50%;
-
-
-}
-.right2
-{
-    width: 100%;
-height: 49%;
-
-
-    
-}
-
-
-}
-@media only screen and (max-width: 450px)
-{
-    .right
-    {
-        padding-top:0px;
-        padding-left: 10px;
-    padding-right: 10px;
-    }
-    .kwa
-    {
-        font-size: 30px
-    }
-.left2
-{
-    padding-left: 10px;
-}
-
-
-
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.7);
+  position: absolute;
+  backdrop-filter: blur(24px);
+  opacity: 1;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
