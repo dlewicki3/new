@@ -6,6 +6,7 @@ import I2 from './I2.webp';
 import I3 from './I3.jpeg';
 import I4 from './I4.webp';
 import { MdClose } from "react-icons/md";
+import { TiPlus } from "react-icons/ti";
 
 
 function O4() {
@@ -53,7 +54,7 @@ function O4() {
           {/* Kwadrat - główny przycisk otwierający modal */}
           
           <motion.div className="square1" onClick={handleAnimationButtonClick}  
-  
+
           >
             <div className="na-foto4">
               <img className='foto4' src= {I1}></img>
@@ -90,7 +91,11 @@ function O4() {
       {/* Modal chuj2 */}
       {isChuj2Visible && (
         <div className="modal-bg">
-          <motion.div className="chuj2">
+          <motion.div className="chuj2"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5 }}
+          >
             <div className="top4">
               <img className='foto44'src= {I2}>
 
@@ -106,7 +111,11 @@ function O4() {
       {/* Modal chuj3 */}
       {isChuj3Visible && (
         <div className="modal-bg">
-          <motion.div className="chuj3">
+          <motion.div className="chuj3"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+          >
           <div className="top4">
               <img className='foto44'src= {I3}>
 
@@ -122,7 +131,11 @@ function O4() {
       {/* Modal chuj4 */}
       {isChuj4Visible && (
         <div className="modal-bg">
-          <motion.div className="chuj4">
+          <motion.div className="chuj4"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+          >
           <div className="top4">
               <img className='foto44'src= {I4}>
 
@@ -139,7 +152,9 @@ function O4() {
       {isOpen && (
         <div className="modal-bg">
           <motion.div className="big-square"
-     
+       initial={{ opacity: 0 }}
+       animate={{ opacity: 1 }}
+       transition={{ duration: 0.5 }}
           >
             
           <div className="top4">
@@ -153,6 +168,10 @@ function O4() {
           </motion.div>
         </div>
       )}
+      <div className="more-pro-btn">Load more projects
+      <TiPlus />
+
+      </div>
     </div>
   );
 }
