@@ -327,8 +327,11 @@ height: 140dvh;
 .na-foto4
 {
 
-  width: 90%;
+
   height: 65%;
+  display: flex;
+ 
+  justify-content: center;
 }
 .foto4
 {

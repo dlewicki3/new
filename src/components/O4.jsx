@@ -56,17 +56,23 @@ function O4() {
           <motion.div className="square1" onClick={handleAnimationButtonClick}  
 
           >
-            <div className="na-foto4">
+            <motion.div className="na-foto4"
+
+whileHover={{ width: '100%' }} 
+            >
               <img className='foto4' src= {I1}></img>
-            </div>
+            </motion.div>
           </motion.div>
 
 
           {/* Drugi kwadrat - przycisk otwierający chuj2 */}
           <motion.div className="kwa44" onClick={handleChuj2Click}>
-          <div className="na-foto4">
+          <motion.div className="na-foto4"
+
+whileHover={{ width: '100%' }} 
+            >
               <img className='foto4' src= {I2}></img>
-            </div>
+            </motion.div>
 
           </motion.div>
         </div>
@@ -75,15 +81,20 @@ function O4() {
           {/* Elementy dolnej części */}
           <motion.div className="kwa44-dol" onClick={handleChuj3Click}>
         
-          <div className="na-foto4">
-           
+          <motion.div className="na-foto4"
+
+whileHover={{ width: '100%',}} 
+            >
               <img className='foto4' src= {I3}></img>
-            </div>
+            </motion.div>
           </motion.div>
           <motion.div className="kwa44-dol2" onClick={handleChuj4Click}>
-          <div className="na-foto4">
+          <motion.div className="na-foto4"
+
+whileHover={{ width: '100%' }} 
+            >
               <img className='foto4' src= {I4}></img>
-            </div>
+            </motion.div>
           </motion.div>
         </div>
       </div>
