@@ -45,13 +45,16 @@ function O4() {
 
   return (
     <div className="o4">
+      <p className='big-txt4'>A small selection<br></br> of my work.</p>
       {/* Kontener dla całego modala */}
       <div className="k4">
         {/* Górna część modala */}
         <div className="gora44">
           {/* Kwadrat - główny przycisk otwierający modal */}
           
-          <motion.div className="square1" onClick={handleAnimationButtonClick}  >
+          <motion.div className="square1" onClick={handleAnimationButtonClick}  
+  
+          >
             <div className="na-foto4">
               <img className='foto4' src= {I1}></img>
             </div>
@@ -135,7 +138,10 @@ function O4() {
       {/* Główny modal */}
       {isOpen && (
         <div className="modal-bg">
-          <motion.div className="big-square">
+          <motion.div className="big-square"
+     
+          >
+            
           <div className="top4">
               <img className='foto44'src= {I2}>
 
