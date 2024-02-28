@@ -104,6 +104,11 @@ function O4() {
       {isChuj3Visible && (
         <div className="modal-bg">
           <motion.div className="chuj3">
+          <div className="top4">
+              <img className='foto44'src= {I3}>
+
+              </img>
+            </div>
             <button className='end-btn' onClick={handleCloseButtonClick}>
             <MdClose/>
             </button>
@@ -115,6 +120,11 @@ function O4() {
       {isChuj4Visible && (
         <div className="modal-bg">
           <motion.div className="chuj4">
+          <div className="top4">
+              <img className='foto44'src= {I4}>
+
+              </img>
+            </div>
             <button className='end-btn' onClick={handleCloseButtonClick}>
             <MdClose/>
             </button>

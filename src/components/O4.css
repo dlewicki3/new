@@ -208,6 +208,7 @@ width: 100%;
 .k4
 {
 height: 140dvh;
+
 }
 .gora44
 {
@@ -250,8 +251,9 @@ height: 140dvh;
 .chuj4
 {
   width: 100%;
-  max-width: 650px;
+  max-width: 750px;
   height: 80%;
+  background-color: red;
 }
 
 
@@ -260,9 +262,6 @@ height: 140dvh;
 
 }
 @media only screen and (max-width: 850px) {
-.o4{
-
-}
 .square1
 {
  width: 90%;
@@ -314,5 +313,12 @@ height: 140dvh;
 {
   height: 70%;
 }
-
+.top4
+{
+  height: 50%;
+}
+.foto44
+{
+  height: 100%;
+}
 }
