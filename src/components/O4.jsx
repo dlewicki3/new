@@ -112,9 +112,12 @@ whileHover={{ width: '100%' }}
 
               </img>
             </div>
-            <button className='end-btn' onClick={handleCloseButtonClick}>
+            <motion.button className='end-btn' onClick={handleCloseButtonClick}
+             whileHover={{ scale: 1.3,  }}
+             whileTap={{ scale: 0.9 }}
+            >
             <MdClose/>
-            </button>
+            </motion.button>
           </motion.div>
         </div>
       )}
@@ -132,9 +135,12 @@ whileHover={{ width: '100%' }}
 
               </img>
             </div>
-            <button className='end-btn' onClick={handleCloseButtonClick}>
+            <motion.button className='end-btn' onClick={handleCloseButtonClick}
+             whileHover={{ scale: 1.3,  }}
+             whileTap={{ scale: 0.9 }}
+            >
             <MdClose/>
-            </button>
+            </motion.button>
           </motion.div>
         </div>
       )}
@@ -152,9 +158,12 @@ whileHover={{ width: '100%' }}
 
               </img>
             </div>
-            <button className='end-btn' onClick={handleCloseButtonClick}>
+            <motion.button className='end-btn' onClick={handleCloseButtonClick}
+             whileHover={{ scale: 1.3,  }}
+             whileTap={{ scale: 0.9 }}
+            >
             <MdClose/>
-            </button>
+            </motion.button>
           </motion.div>
         </div>
       )}
@@ -173,9 +182,12 @@ whileHover={{ width: '100%' }}
 
               </img>
             </div>
-            <button className='end-btn' onClick={handleCloseButtonClick}> 
+            <motion.button className='end-btn' onClick={handleCloseButtonClick}
+            whileHover={{ scale: 1.5,  }}
+            whileTap={{ scale: 0.9 }}
+            > 
             <MdClose/>
-            </button>
+            </motion.button>
           </motion.div>
         </div>
       )}
