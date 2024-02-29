@@ -120,7 +120,7 @@
   @media only screen and (max-width: 850px) {
 .o5
 {
-  height: 90dvh;
+  height: 82dvh;
 
 }
 .slider
@@ -148,12 +148,12 @@
   @media only screen and (max-width: 550px) {
 .k5
 {
-    background-color: red;
-    height: 75dvh;
+    
+    height: 85dvh;
 }
 .o5
 {
-    height: 100dvh;
+    height:90dvh;
 }
 
 
