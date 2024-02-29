@@ -120,13 +120,16 @@
   @media only screen and (max-width: 850px) {
 .o5
 {
-  height: 75dvh;
+  height: 83dvh;
 }
 .slider
 {
  
     flex-direction:column ;
     width: 90%;
+
+  padding-bottom: 0px;
+
 
 }
 
