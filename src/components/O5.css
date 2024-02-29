@@ -145,3 +145,16 @@
 }
 
   }
+  @media only screen and (max-width: 550px) {
+.k5
+{
+    background-color: red;
+    height: 75dvh;
+}
+.o5
+{
+    height: 100dvh;
+}
+
+
+  }
