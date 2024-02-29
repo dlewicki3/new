@@ -120,7 +120,8 @@
   @media only screen and (max-width: 850px) {
 .o5
 {
-  height: 83dvh;
+  height: 90dvh;
+
 }
 .slider
 {
@@ -131,8 +132,13 @@
   padding-bottom: 0px;
 
 
-}
 
+}
+.k5
+{
+   
+    height: 70dvh;
+}
 .slajd
 {
     width: 100%;
