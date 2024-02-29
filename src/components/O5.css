@@ -1,6 +1,6 @@
 .o5 {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,12 +149,18 @@
 .k5
 {
     
-    height: 85dvh;
+    height: 75dvh;
+    background-color: green;
+    padding-top: 50px;
 }
 .o5
 {
     height:90dvh;
 }
-
+.slajd
+{
+  background-color: red;
+  height: 350px;
+}
 
   }
