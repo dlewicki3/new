@@ -8,7 +8,7 @@ justify-content: space-between;
 align-items: center;
 flex-direction: column;
 padding-top: 100px;
-padding-bottom: 50px;
+padding-bottom: 15px;
 }
 .k6
 {
@@ -183,6 +183,7 @@ line-height: 1.1;
 .o6
 {
     height: 200dvh;
+    padding-bottom: 0px;
 }
 .k6
 {
@@ -229,6 +230,10 @@ height: 49.5%;
     width: 90%;
     border: 1px solid grey;
 }
+
+
+
+
 }
 @media only screen and (max-width: 600px) {
 .right6
@@ -329,5 +334,9 @@ height: 160dvh;
   {
     font-size: 13px;
   }
-
+  .na-foto66
+  {
+      margin-top: -10px;
+      width: 120%;
+  }
 }
