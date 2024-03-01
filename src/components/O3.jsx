@@ -8,7 +8,7 @@ function O3() {
 
 
       <div className='k3 '>
-        
+        <img className='foto' src= {sand}></img>
       </div>
 
 
