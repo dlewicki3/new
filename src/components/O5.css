@@ -35,10 +35,12 @@
 
   }
   .slajd {
-    height: 450px;
-    width: 550px;
+    height: 500px;
+    width: 600px;
     display: none;
-
+    background-color: #e9eaeb;
+    box-shadow: 2px 4px 12px rgba(0,0,0,.08);
+    backdrop-filter: blur(24px);
 
 
   }
@@ -46,7 +48,7 @@
   .slajd.active {
     display: block;
     border-radius: 22px;
-    box-shadow: 1px 10px 25px 15px rgb(245, 245, 245);
+
 
 
   }

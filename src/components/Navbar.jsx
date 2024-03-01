@@ -7,7 +7,7 @@ function Navbar() {
 
 <div class="w-full max-w-[1100px]  flex justify-between items-center mx-auto h-full border-b border-solid border-borderColor ">
 
-  <div className='exsm:text-base font-[500] tracking-[-1.6px] sm:text-xl text-[#11181c]'>Dominik Lewicki</div>
+  <div className='exsm:text-base font-[500] tracking-[-1.6px] sm:text-xl text-[#687076]'>Dominik Lewicki</div>
 
   <ul className="hidden  md:flex bg-transparent lg:bg-transparent h-10 items-center   text-[#687076]" >
 
