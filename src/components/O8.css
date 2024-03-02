@@ -1,0 +1,304 @@
+.o8
+{
+    width: 100%;
+    height: 350dvh;
+    display: flex;
+align-items: center;
+    flex-direction: column;
+padding-top: 100px;
+
+}
+
+.big-txt-8
+{
+    font-size: 80px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: -4px;
+color: #687076;
+
+position: sticky;
+top:120px;
+
+}
+.k8
+{
+    width: 100%;
+    max-width: 1100px;
+
+    height: 95%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.left8
+{
+width: 49%;
+height: 100%;
+
+
+}
+.right8
+{
+height: 100%;
+width: 49%;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+.first8
+{
+  
+    width: 100%;
+    height: 19.7%;
+  
+}
+.second8
+{
+ 
+    height: 19.7%;
+    width: 100%;
+}
+.third8
+{
+    width: 100%;
+    height: 19.7%;
+  
+}
+.fourth8
+{
+    width: 100%;
+    height: 19.7%;
+ 
+}
+.fifth8
+{
+    width: 100%;
+    height: 19.7%;
+  
+
+}
+.kwa8
+{
+    width: 100%;
+    height: 45%;
+    border-radius: 12px;
+ 
+
+    position: sticky;
+    top: 120px;
+   display: flex;
+   background-color: #fff;
+    box-shadow: 0 20px 40px 20px rgba(17,25,28,.09);
+    transform-origin: 50% 0%;
+
+}
+.kwa8-left
+{
+width: 30%;
+border-top-left-radius: 12px;
+border-bottom-left-radius: 12px;
+font-size: 90px;
+color: #687076;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 400;
+background-color: #f7f7f7;
+}
+.kwa8-right
+{
+    width:70% ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 20px;
+   
+}
+.thick-txt
+{
+    font-size: 24px;
+    font-weight: 600;
+    color: #5c5c5c;
+
+}
+.thin-txt
+{
+    font-size: 14.5px;
+    color: #687076;
+    font-weight: 500;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 1100px) {
+.big-txt-8
+{
+    font-size: 60px;
+}
+.o8
+{
+
+}
+.k8{
+    width: 90%;
+}
+.kwa8{
+    height: 40%;
+}
+.kwa8-left
+{
+    font-size: 75px;
+}
+.kwa8-right
+{
+    padding-left: 5px;
+}
+
+.thin-txt
+{
+    font-size: 13px;
+}
+}
+@media only screen and (max-width: 900px) {
+ .o8{
+   
+    height: 350dvh;
+    padding:0px;
+  border-bottom: 2px solid black;
+
+ }
+.k8
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    margin: 20px;
+}
+.left8
+{
+width: 100%;
+display: flex;
+align-items: center;
+height: 10%;
+
+}
+.right8
+{
+    width: 100%;
+    height: 90%;
+}
+.big-txt-8
+{
+    position: static;
+    text-align: center;
+    top:0px;
+}
+.kwa8{
+    height: 60%;
+}
+.kwa8-right
+{
+    padding-left: 50px;
+}
+.thick-txt
+{
+    font-size: 26px;
+}
+.thin-txt
+{
+    font-size: 16px;
+}
+}
+@media only screen and (max-width: 600px) {
+.o8{
+   height: 320dvh;
+}
+.big-txt-8
+{
+    font-size: 50px;
+    letter-spacing: 0px;
+}
+.thick-txt
+{
+    font-size: 23px;
+}
+.thin-txt
+{
+    font-size: 14.5px;
+}
+.kwa8-right
+{
+    padding-left: 30px;
+}
+}
+
+@media only screen and (max-width: 540px) {
+    .big-txt-8
+    {
+        font-size: 42px;
+        letter-spacing: 0px;
+    }
+    .thick-txt
+    {
+        font-size: 22px;
+    }
+    .thin-txt
+    {
+        font-size: 15px;
+    }
+    .kwa8-right
+    {
+        padding-left: 5px;
+    }
+.kwa8
+{
+    height:50% ;
+}
+.kwa8-left
+{
+    font-size: 70px;
+    width: 15%;
+}
+}
+
+@media only screen and (max-width: 464px) {
+
+  
+    .big-txt-8
+    {
+        font-size: 35px;
+   
+    }
+    .thick-txt
+    {
+        font-size: 20px;
+    }
+    .thin-txt
+    {
+      font-size: 13px;
+    }
+    .kwa8-right
+{
+    padding-left: 5px;
+}
+.kwa8-left
+{
+    font-size: 60px;
+}
+}
+
+@media only screen and (max-width: 464px) {
+    .thick-txt
+    {
+        font-size: 18px;
+    }
+    .thin-txt
+    {
+      font-size: 12px;
+    }
+
+
+
+}
