@@ -7,6 +7,17 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+overflow: hidden;
+}
+.absolute-div
+{
+    position: absolute;
+    background-color: #007aff;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    margin-top: 300px;
+    filter: blur(300px); /* Tutaj możesz dostosować stopień rozmycia, zmieniając wartość 5px */
 
 }
 .k7
@@ -14,7 +25,7 @@
     width: 100%;
     height: 75dvh;
     max-width: 1100px;
-
+z-index: 98;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -23,7 +34,7 @@
 {
     width: 100%;
     height: 49%;
-   
+
     display: flex;
     justify-content: space-between;
    
@@ -40,7 +51,7 @@
 {
 width: 49%;
 height: 100%;
-
+background-color: #151718;
 border-radius: 15px;
 border: 1px solid grey;
 position: relative;
@@ -62,6 +73,7 @@ display: flex;
 padding-bottom: 60px;
 align-items: center;
 justify-content: space-between;
+background-color: #151718;
 }
 .na-color
 {
@@ -128,6 +140,7 @@ border: 1px solid grey;
 position: relative;
 overflow: hidden;
 padding-top: 50px;
+background-color: #151718;
 }
 .right7-bottom
 {
@@ -138,6 +151,7 @@ border-radius: 15px;
     position: relative;
     overflow: hidden;
     padding-top: 50px;
+    background-color: #151718;
 }
 .na-foto7-left
 {

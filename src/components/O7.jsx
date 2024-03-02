@@ -7,6 +7,7 @@ import left from './left.webp';
 function O7() {
   return (
  <div className="o7">
+    <div className="absolute-div"></div>
     <div className="k7">
         <div className="gora7">
             <div className="left7" >

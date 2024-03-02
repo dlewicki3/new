@@ -10,7 +10,7 @@
   .k5 {
     display: flex;
 
-    height: 65dvh;
+    height: 75dvh;
     margin: auto;
     max-width: 850px;
     width:100%;
@@ -33,10 +33,11 @@
         align-items: center;
         flex-direction:column;
 
+
   }
   .slajd {
-    height: 500px;
-    width: 600px;
+    height: 600px;
+    width:700px;
     display: none;
     background-color: #e9eaeb;
     box-shadow: 2px 4px 12px rgba(0,0,0,.08);

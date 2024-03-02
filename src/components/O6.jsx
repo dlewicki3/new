@@ -5,9 +5,11 @@ import sand from './sand.webp';
 function O6() {
   return (
 <div className="o6">
+
 <p className='big-txt6'>
 Your ultimate <br></br>Webflow partner.
 </p>
+<div className="position-absolute-div"></div>
     <div className="k6">
 <div className="gora6">
   <div className="left6">

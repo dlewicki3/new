@@ -21,11 +21,11 @@ function O5() {
         <div className="slider">
       
         
-        <div className={`slajd slajd1 ${currentSlide === 1 ? 'active' : ''}`}>eeeec huj 1</div>
-        <div className={`slajd slajd1 ${currentSlide === 2 ? 'active' : ''}`}>eeeec huj 2</div>
-        <div className={`slajd slajd1 ${currentSlide === 3 ? 'active' : ''}`}>eeeec huj 3</div>
-        <div className={`slajd slajd2 ${currentSlide === 4 ? 'active' : ''}`}>eeeeeeeeeeeeee4</div>
-        <div className={`slajd slajd3 ${currentSlide === 5 ? 'active' : ''}`}>ppppppppppppp5</div>
+        <div className={`slajd slajd1 ${currentSlide === 1 ? 'active' : ''}`}>1</div>
+        <div className={`slajd slajd1 ${currentSlide === 2 ? 'active' : ''}`}>2</div>
+        <div className={`slajd slajd1 ${currentSlide === 3 ? 'active' : ''}`}> 3</div>
+        <div className={`slajd slajd2 ${currentSlide === 4 ? 'active' : ''}`}>4</div>
+        <div className={`slajd slajd3 ${currentSlide === 5 ? 'active' : ''}`}>5</div>
         
 
         <div className="na-btn5">
