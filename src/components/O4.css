@@ -282,7 +282,7 @@ width: 80%;
 {
   width:100%;
   max-width: 750px;
-  height: 60%;
+  height: 65%;
 
 }
 
@@ -349,17 +349,12 @@ width: 70%;
 {
   width:100%;
   max-width: 750px;
-  height: 50%;
+  height: 65%;
 
 }
 
 }
 @media only screen and (max-width: 500px) {
-
-
-
-
-
 .na-foto4
 {
 
@@ -380,7 +375,7 @@ width: 70%;
 {
   width:100%;
   max-width: 750px;
-  height: 50%;
+height: 65%;
 
 }
 .top4
@@ -399,7 +394,7 @@ width: 70%;
 @media only screen and (max-width: 450px) {
   .top4
   {
-    height: 40%;
+    height: 35%;
   }
   .big-square,
   .chuj2,
@@ -408,7 +403,7 @@ width: 70%;
   {
     width:100%;
     max-width: 750px;
-    height: 40%;
+    height: 65%;
   
   }
 
