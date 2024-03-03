@@ -194,17 +194,11 @@ justify-content: center;
 }
 .na-foto4
 {
-width: 80%;
+width: 60%;
 
 
   transition: all .2s ease-in-out;
 }
-/* .na-foto4:hover
-{
-
-width: 100%;
-
-} */
 .foto4
 {
   border-radius: 10px;
@@ -321,7 +315,7 @@ height: 140dvh;
 }
 .na-foto4
 {
-height: 90%;
+width: 70%;
 }
 .foto4
 {
@@ -352,7 +346,7 @@ height: 90%;
 {
 
 
-  height: 65%;
+  height: 70%;
   display: flex;
  
   justify-content: center;

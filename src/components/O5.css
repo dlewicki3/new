@@ -153,12 +153,14 @@
   @media only screen and (max-width: 550px) {
 .o5
 {
-    height:68dvh;
+    height:85dvh;
+    background-color: grey;
 }
 .k5{
 
   height: 100%;
   padding-bottom: 20px;
+  background-color: red;
 }
 .slider
 {
