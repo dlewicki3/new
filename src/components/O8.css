@@ -264,32 +264,29 @@ height: 10%;
 }
 
 @media only screen and (max-width: 464px) {
+.o8
+{
 
-  
+    height: 350dvh;
+
+}
+.k8
+{
+   
+    height: 100%;
+}
+  .kwa8
+  {
+
+
+    paddingcd : 0px;
+  }
+
     .big-txt-8
     {
         font-size: 35px;
    
     }
-    .thick-txt
-    {
-        font-size: 20px;
-    }
-    .thin-txt
-    {
-      font-size: 13px;
-    }
-    .kwa8-right
-{
-    padding-left: 5px;
-}
-.kwa8-left
-{
-    font-size: 60px;
-}
-}
-
-@media only screen and (max-width: 464px) {
     .thick-txt
     {
         font-size: 18px;
@@ -298,7 +295,14 @@ height: 10%;
     {
       font-size: 12px;
     }
-
-
-
+    .kwa8-right
+{
+    
+    padding: 0px;
+}
+.kwa8-left
+{
+    font-size: 60px;
+    
+}
 }
