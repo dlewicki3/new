@@ -1,6 +1,6 @@
 .o5 {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@
   .k5 {
     display: flex;
 
-    height: 75dvh;
+    height: 80dvh;
     margin: auto;
     max-width: 850px;
     width:100%;
@@ -37,7 +37,7 @@
   }
   .slajd {
     height: 600px;
-    width:700px;
+    width:750px;
     display: none;
     background-color: #e9eaeb;
     box-shadow: 2px 4px 12px rgba(0,0,0,.08);
@@ -123,7 +123,8 @@
   @media only screen and (max-width: 850px) {
 .o5
 {
-  height: 82dvh;
+  height: 80dvh;
+
 
 }
 .slider
@@ -145,20 +146,23 @@
 .slajd
 {
     width: 100%;
+    height: 85%;
 }
 
   }
   @media only screen and (max-width: 550px) {
-.k5
-{
-    
-    height: 75dvh;
-
-    padding-top: 50px;
-}
 .o5
 {
-    height:90dvh;
+    height:60dvh;
+}
+.k5{
+
+  height: 100%;
+  padding-bottom: 20px;
+}
+.slider
+{
+height: 85%;
 }
 .slajd
 {
