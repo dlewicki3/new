@@ -3,6 +3,13 @@ import "./O5.css";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
 import { motion } from 'framer-motion';
+import I1 from './I1.webp';
+import I2 from './I2.webp';
+import I3 from './I3.jpeg';
+import I4 from './I4.webp';
+
+
+
 
 function O5() {
   const [currentSlide, setCurrentSlide] = useState(1);
@@ -21,11 +28,30 @@ function O5() {
         <div className="slider">
       
         
-        <div className={`slajd slajd1 ${currentSlide === 1 ? 'active' : ''}`}>1</div>
-        <div className={`slajd slajd1 ${currentSlide === 2 ? 'active' : ''}`}>2</div>
-        <div className={`slajd slajd1 ${currentSlide === 3 ? 'active' : ''}`}> 3</div>
-        <div className={`slajd slajd2 ${currentSlide === 4 ? 'active' : ''}`}>4</div>
-        <div className={`slajd slajd3 ${currentSlide === 5 ? 'active' : ''}`}>5</div>
+        <div className={`slajd slajd1 ${currentSlide === 1 ? 'active' : ''}`}>
+          <div className="fotka">
+            <img className='foto5' src = {I1}></img>
+          </div>
+        </div>
+        <div className={`slajd slajd1 ${currentSlide === 2 ? 'active' : ''}`}>
+        <div className="fotka">
+            <img className='foto5' src = {I2}></img>
+          </div>
+        </div>
+        <div className={`slajd slajd1 ${currentSlide === 3 ? 'active' : ''}`}> 
+        <div className="fotka">
+            <img className='foto5' src = {I4}></img>
+          </div></div>
+        <div className={`slajd slajd2 ${currentSlide === 4 ? 'active' : ''}`}>
+        <div className="fotka">
+            <img className='foto5' src = {I3}></img>
+          </div>
+        </div>
+        <div className={`slajd slajd3 ${currentSlide === 5 ? 'active' : ''}`}>
+        <div className="fotka">
+            <img className='foto5' src = {I2}></img>
+          </div>
+        </div>
         
 
         <div className="na-btn5">
