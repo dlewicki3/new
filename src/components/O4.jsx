@@ -29,17 +29,17 @@ function O4() {
     setIsOpen(true);
   };
 
-  // Funkcja do przełączania widoczności chuj2
+  // Funkcja do przełączania widoczności 
   const handleChuj2Click = () => {
     setIsChuj2Visible(!isChuj2Visible);
   };
 
-  // Funkcja do przełączania widoczności chuj3
+  // Funkcja do przełączania widoczności 
   const handleChuj3Click = () => {
     setIsChuj3Visible(!isChuj3Visible);
   };
 
-  // Funkcja do przełączania widoczności chuj4
+  // Funkcja do przełączania widoczności 
   const handleChuj4Click = () => {
     setIsChuj4Visible(!isChuj4Visible);
   };
@@ -105,7 +105,7 @@ whileHover={{ width: '95%' }}
           <motion.div className="chuj2"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.5 }}
           
           >
             <div className="top4">
