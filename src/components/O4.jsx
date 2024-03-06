@@ -10,18 +10,18 @@ import { TiPlus } from "react-icons/ti";
 
 
 function O4() {
-  // Stan do śledzenia otwarcia modala i widoczności chuj2, chuj3 i chuj4
+  // Stan do śledzenia otwarcia modala i widoczności anime2, anime3 i anime4
   const [isOpen, setIsOpen] = useState(false);
-  const [isChuj2Visible, setIsChuj2Visible] = useState(false);
-  const [isChuj3Visible, setIsChuj3Visible] = useState(false);
-  const [isChuj4Visible, setIsChuj4Visible] = useState(false);
+  const [isAnime2Visible, setIsAnime2Visible] = useState(false);
+  const [isAnime3Visible, setIsAnime3Visible] = useState(false);
+  const [isAnime4Visible, setIsAnime4Visible] = useState(false);
 
   // Funkcja do zamknięcia wszystkich modali
   const handleCloseButtonClick = () => {
     setIsOpen(false);
-    setIsChuj2Visible(false);
-    setIsChuj3Visible(false);
-    setIsChuj4Visible(false);
+    setIsAnime2Visible(false);
+    setIsAnime3Visible(false);
+    setIsAnime4Visible(false);
   };
 
   // Funkcja do otwarcia głównego modala
@@ -30,18 +30,18 @@ function O4() {
   };
 
   // Funkcja do przełączania widoczności 
-  const handleChuj2Click = () => {
-    setIsChuj2Visible(!isChuj2Visible);
+  const handleAnime2Click = () => {
+    setIsAnime2Visible(!isAnime2Visible);
   };
 
   // Funkcja do przełączania widoczności 
-  const handleChuj3Click = () => {
-    setIsChuj3Visible(!isChuj3Visible);
+  const handleAnime3Click = () => {
+    setIsAnime3Visible(!isAnime3Visible);
   };
 
   // Funkcja do przełączania widoczności 
-  const handleChuj4Click = () => {
-    setIsChuj4Visible(!isChuj4Visible);
+  const handleAnime4Click = () => {
+    setIsAnime4Visible(!isAnime4Visible);
   };
 
   return (
@@ -52,69 +52,48 @@ function O4() {
         {/* Górna część modala */}
         <div className="gora44">
           {/* Kwadrat - główny przycisk otwierający modal */}
-          
-          <motion.div className="square1" onClick={handleAnimationButtonClick}  
-
-          >
-            <motion.div className="na-foto4"
-
-whileHover={{ width: '95%' }} 
-            >
-              <img className='foto4' src= {I1}></img>
+          <motion.div className="square1" onClick={handleAnimationButtonClick}>
+            <motion.div className="na-foto4" whileHover={{ width: '95%' }} >
+              <img className='foto4' src= {I1} alt="I1"></img>
             </motion.div>
           </motion.div>
-
-
-          {/* Drugi kwadrat - przycisk otwierający chuj2 */}
-          <motion.div className="kwa44" onClick={handleChuj2Click}>
-          <motion.div className="na-foto4"
-
-whileHover={{ width: '95%' }} 
-            >
-              <img className='foto4' src= {I2}></img>
+          {/* Drugi kwadrat - przycisk otwierający anime2 */}
+          <motion.div className="kwa44" onClick={handleAnime2Click}>
+            <motion.div className="na-foto4" whileHover={{ width: '95%' }} >
+              <img className='foto4' src= {I2} alt="I2"></img>
             </motion.div>
-
           </motion.div>
         </div>
         {/* Dolna część modala */}
         <div className="dol44">
           {/* Elementy dolnej części */}
-          <motion.div className="kwa44-dol" onClick={handleChuj3Click}>
-        
-          <motion.div className="na-foto4"
-
-whileHover={{ width: '95%',}} 
-            >
-              <img className='foto4' src= {I3}></img>
+          <motion.div className="kwa44-dol" onClick={handleAnime3Click}>
+            <motion.div className="na-foto4" whileHover={{ width: '95%' }}>
+              <img className='foto4' src= {I3} alt="I3"></img>
             </motion.div>
           </motion.div>
-          <motion.div className="kwa44-dol2" onClick={handleChuj4Click}>
-          <motion.div className="na-foto4"
-
-whileHover={{ width: '95%' }} 
-            >
-              <img className='foto4' src= {I4}></img>
+          <motion.div className="kwa44-dol2" onClick={handleAnime4Click}>
+            <motion.div className="na-foto4" whileHover={{ width: '95%' }}>
+              <img className='foto4' src= {I4} alt="I4"></img>
             </motion.div>
           </motion.div>
         </div>
       </div>
 
-      {/* Modal chuj2 */}
-      {isChuj2Visible && (
+      {/* Modal anime2 */}
+      {isAnime2Visible && (
         <div className="modal-bg">
-          <motion.div className="chuj2"
+          <motion.div className="anime2"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
-          
           >
             <div className="top4">
-              <img className='foto44'src= {I2}>
-
-              </img>
+              
+              <img className='foto44' src= {I2} alt="I2"></img>
             </div>
             <motion.button className='end-btn' onClick={handleCloseButtonClick}
-             whileHover={{ scale: 1.3,  }}
+             whileHover={{ scale: 1.3 }}
              whileTap={{ scale: 0.9 }}
             >
             <MdClose/>
@@ -123,21 +102,19 @@ whileHover={{ width: '95%' }}
         </div>
       )}
 
-      {/* Modal chuj3 */}
-      {isChuj3Visible && (
+      {/* Modal anime3 */}
+      {isAnime3Visible && (
         <div className="modal-bg">
-          <motion.div className="chuj3"
+          <motion.div className="anime3"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-          <div className="top4">
-              <img className='foto44'src= {I3}>
-
-              </img>
+            <div className="top4">
+              <img className='foto44' src= {I3} alt="I3"></img>
             </div>
             <motion.button className='end-btn' onClick={handleCloseButtonClick}
-             whileHover={{ scale: 1.3,  }}
+             whileHover={{ scale: 1.3 }}
              whileTap={{ scale: 0.9 }}
             >
             <MdClose/>
@@ -146,21 +123,19 @@ whileHover={{ width: '95%' }}
         </div>
       )}
 
-      {/* Modal chuj4 */}
-      {isChuj4Visible && (
+      {/* Modal anime4 */}
+      {isAnime4Visible && (
         <div className="modal-bg">
-          <motion.div className="chuj4"
+          <motion.div className="anime4"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-          <div className="top4">
-              <img className='foto44'src= {I4}>
-
-              </img>
+            <div className="top4">
+              <img className='foto44' src= {I4} alt="I4"></img>
             </div>
             <motion.button className='end-btn' onClick={handleCloseButtonClick}
-             whileHover={{ scale: 1.3,  }}
+             whileHover={{ scale: 1.3 }}
              whileTap={{ scale: 0.9 }}
             >
             <MdClose/>
@@ -177,14 +152,11 @@ whileHover={{ width: '95%' }}
        animate={{ opacity: 1 }}
        transition={{ duration: 0.5 }}
           >
-            
-          <div className="top4">
-              <img className='foto44'src= {I2}>
-
-              </img>
+            <div className="top4">
+              <img className='foto44' src= {I2} alt="I2"></img>
             </div>
             <motion.button className='end-btn' onClick={handleCloseButtonClick}
-            whileHover={{ scale: 1.5,  }}
+            whileHover={{ scale: 1.5 }}
             whileTap={{ scale: 0.9 }}
             > 
             <MdClose/>
@@ -194,7 +166,6 @@ whileHover={{ width: '95%' }}
       )}
       <div className="more-pro-btn">Load more projects
       <TiPlus />
-
       </div>
     </div>
   );

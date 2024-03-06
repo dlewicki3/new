@@ -59,6 +59,7 @@ flex-direction: column;
   z-index: 100;
   position: absolute;
   box-shadow: 2px 4px 12px rgba(0,0,0,.08);
+  background-color: white;
 }
 .modal-bg
 {
@@ -127,7 +128,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-.chuj2
+.anime2
 {
  background-color: white;
   width: 100%;
@@ -138,7 +139,7 @@ justify-content: center;
   z-index: 100;
   position: absolute;
 }
-.chuj3
+.anime3
 {
   background-color: white;
   width: 100%;
@@ -149,7 +150,7 @@ justify-content: center;
   z-index: 100;
   position: absolute;
 }
-.chuj4
+.anime4
 {
   width: 100%;
     height: 80%;
@@ -158,6 +159,7 @@ justify-content: center;
   border-radius: 12px;
   z-index: 100;
   position: absolute;
+  background-color: white;
 }
 .top4
 {
@@ -240,13 +242,14 @@ width: 80%;
   width: 100%;
 }
 .big-square,
-.chuj2,
-.chuj3,
-.chuj4
+.anime2,
+.anime3,
+.anime4
 {
   width:100%;
   max-width: 750px;
   height: 65%;
+  
 }
 }
 @media only screen and (max-width: 850px) {
@@ -296,9 +299,9 @@ width: 75%;
   font-size: 50px;
 }
 .big-square,
-.chuj2,
-.chuj3,
-.chuj4
+.anime2,
+.anime3,
+.anime4
 {
   width:100%;
   max-width: 750px;
@@ -322,9 +325,9 @@ width: 75%;
 
 }
 .big-square,
-.chuj2,
-.chuj3,
-.chuj4
+.anime2,
+.anime3,
+.anime4
 {
   width:100%;
   max-width: 750px;
@@ -352,9 +355,9 @@ height: 65%;
     height: 35%;
   }
   .big-square,
-  .chuj2,
-  .chuj3,
-  .chuj4
+  .anime2,
+  .anime3,
+  .anime4
   {
     width:100%;
     max-width: 750px;
