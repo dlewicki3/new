@@ -58,7 +58,7 @@ function O4() {
           >
             <motion.div className="na-foto4"
 
-whileHover={{ width: '100%' }} 
+whileHover={{ width: '95%' }} 
             >
               <img className='foto4' src= {I1}></img>
             </motion.div>
@@ -69,7 +69,7 @@ whileHover={{ width: '100%' }}
           <motion.div className="kwa44" onClick={handleChuj2Click}>
           <motion.div className="na-foto4"
 
-whileHover={{ width: '100%' }} 
+whileHover={{ width: '95%' }} 
             >
               <img className='foto4' src= {I2}></img>
             </motion.div>
@@ -83,7 +83,7 @@ whileHover={{ width: '100%' }}
         
           <motion.div className="na-foto4"
 
-whileHover={{ width: '100%',}} 
+whileHover={{ width: '95%',}} 
             >
               <img className='foto4' src= {I3}></img>
             </motion.div>
@@ -91,7 +91,7 @@ whileHover={{ width: '100%',}}
           <motion.div className="kwa44-dol2" onClick={handleChuj4Click}>
           <motion.div className="na-foto4"
 
-whileHover={{ width: '100%' }} 
+whileHover={{ width: '95%' }} 
             >
               <img className='foto4' src= {I4}></img>
             </motion.div>
@@ -105,7 +105,8 @@ whileHover={{ width: '100%' }}
           <motion.div className="chuj2"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 1 }}
+          
           >
             <div className="top4">
               <img className='foto44'src= {I2}>

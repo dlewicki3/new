@@ -9,6 +9,7 @@ import O6 from "./components/O6";
 import O7 from "./components/O7"; 
 import O8 from "./components/O8"; 
 import O9 from "./components/O9"; 
+import O10 from "./components/O10"; 
 
 
 import "./App.css";
@@ -28,6 +29,7 @@ function App() {
       <O7 />
       <O8 />
       <O9 />
+      <O10 />
 
    
       </body>

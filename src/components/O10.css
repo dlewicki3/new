@@ -1,0 +1,213 @@
+.o10
+{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.k10
+{
+    width: 100%;
+    max-width: 1100px;
+    height: 90%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.top
+{
+    width: 100%;
+    height: 65%;
+    border-radius: 20px;
+ background-image: url(sand2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+justify-content: center;
+}
+.bottom
+{
+    width: 100%;
+    height: 25%;
+
+display: flex;
+justify-content: space-between;
+}
+.fottage
+{
+    width: 100%;
+    height: 5%;
+
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.kwa10
+{
+    width: 49%;
+   
+    height: 100%;
+    border-radius: 15px;
+    border: 1px solid #e6e8eb;
+    box-shadow: 2px 4px 12px rgba(0,0,0,.08);
+    padding-left: 60px;
+    padding-top: 50px;
+}
+.left10
+{
+    width: 65%;
+    height: 100%;
+ 
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #687076;
+
+}
+.right10
+{
+    width: 35%;
+    height: 100%;
+ 
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.na-zdjeciu
+{
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: auto;
+   width: auto;
+   flex-direction: column;
+}
+.big-txt10
+{
+    font-size: 64px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+line-height: 1.2;
+}
+.button10
+{
+    font-size: 20px;
+    color:white;
+    margin-top: 30px;
+ letter-spacing: -0.5px;
+    line-height: 1;
+display: flex;
+align-items: center;
+
+}
+.thin-txt
+{
+font-size: 15px;
+}
+
+.thick-txt
+{
+font-size: 24px;
+}
+.klocek
+{
+    width: 23%;
+    height: 100%;
+
+    font-size: 14px;
+    font-weight: 500;
+    color: #687076;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:1100px ){
+.k10
+{
+width: 90%;
+}
+}
+@media only screen and (max-width:700px ){
+    .o10{
+        height: 115dvh;
+       justify-content:flex-start;
+    }
+.k10{
+
+    height: 100%;
+}
+.bottom
+{
+
+    flex-direction: column;
+    height: 40%;
+
+}
+.top{
+    height: 45%;
+}
+.kwa10
+{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+.fottage
+{
+
+    flex-direction: column-reverse;
+    height: 10%;
+}
+
+.left10
+{
+    justify-content: center;
+width: 80%;
+}
+.right10
+{
+width: 100%;
+width: 80%;
+}
+.big-txt10
+{
+    font-size: 50px;
+}
+
+
+
+}
+@media only screen and (max-width:480px ){
+.left10
+{
+    width: 100%;
+}
+.right10
+{
+    width: 100%;
+}
+.klocek
+{
+    width: 25%;
+
+}
+.big-txt10
+{
+    font-size: 40px;
+}
+
+
+}

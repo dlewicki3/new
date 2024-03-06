@@ -11,8 +11,7 @@ function O9() {
   const [isOpen3, setIsOpen3] = useState(false);
   const [isOpen4, setIsOpen4] = useState(false);
   const [isOpen5, setIsOpen5] = useState(false);
-  const [isOpen6, setIsOpen6] = useState(false);
-  const [isOpen7, setIsOpen7] = useState(false);
+
 
   const toggleAccordion1 = () => {
     setIsOpen1(!isOpen1);
@@ -32,12 +31,9 @@ function O9() {
   const toggleAccordion5 = () => {
     setIsOpen5(!isOpen5);
   };
-  const toggleAccordion6 = () => {
-    setIsOpen6(!isOpen6);
-  };
-  const toggleAccordion7 = () => {
-    setIsOpen7(!isOpen7);
-  };
+
+
+  
   return (
     <motion.div className="o9">
       <div className="k9">
@@ -72,10 +68,18 @@ function O9() {
 
         <div className="question" onClick={toggleAccordion2}>
         Do you require finalized designs when reaching out?
+
+
+
         <div className="naplusa">
         <FaPlus />
 
              </div>
+
+
+
+
+
         </div>
         <AnimatePresence>
           {isOpen2 && (
