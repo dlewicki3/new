@@ -28,7 +28,7 @@ function O8() {
                 2
             </div>
             <div className="kwa8-right">
-                <p className='thick-txt'>Meeting
+                <p className='thick-txt8'>Meeting
 </p>
 <p className='thin-txt8'>The first step in our collaboration is the<br></br> project request. This gives me an idea of <br></br>what you're looking for video call to <br></br>dive deeper.</p>
             </div>
@@ -40,9 +40,9 @@ function O8() {
                 3
             </div>
             <div className="kwa8-right">
-                <p className='thick-txt'>Proposal
+                <p className='thick-txt8'>Proposal
 </p>
-<p className='thin-tx8'>The first step in our collaboration is the<br></br> project request. This gives me an idea of <br></br>what you're looking for video call to <br></br>dive deeper.</p>
+<p className='thin-txt8'>The first step in our collaboration is the<br></br> project request. This gives me an idea of <br></br>what you're looking for video call to <br></br>dive deeper.</p>
             </div>
         </div>
     </div>
@@ -52,7 +52,7 @@ function O8() {
                 4
             </div>
             <div className="kwa8-right">
-                <p className='thick-txt'>Implementation
+                <p className='thick-txt8'>Implementation
 </p>
 <p className='thin-txt8'>The first step in our collaboration is the<br></br> project request. This gives me an idea of <br></br>what you're looking for video call to <br></br>dive deeper.</p>
             </div>
@@ -64,7 +64,7 @@ function O8() {
                 5
             </div>
             <div className="kwa8-right">
-                <p className='thick-txt'>Lounch
+                <p className='thick-txt8'>Lounch
 </p>
 <p className='thin-txt8'>The first step in our collaboration is the<br></br> project request. This gives me an idea of <br></br>what you're looking for video call to <br></br>dive deeper.</p>
             </div>
