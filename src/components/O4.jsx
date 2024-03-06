@@ -86,7 +86,7 @@ function O4() {
           <motion.div className="anime2"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.4 }}
           >
             <div className="top4">
               
